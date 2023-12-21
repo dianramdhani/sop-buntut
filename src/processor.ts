@@ -7,7 +7,7 @@ import { mkdir, writeFile } from 'fs/promises'
 import { resolve } from 'path'
 import type { Browser, Page, Protocol } from 'puppeteer'
 
-type Request = {
+export type Request = {
   url: string
   headers: any
   payload: any
